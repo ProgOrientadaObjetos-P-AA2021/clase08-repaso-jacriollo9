@@ -17,8 +17,7 @@ public class Acreditacion {
 
     public Acreditacion(double n, String nombre) {
         nota = n;
-        nombreMateria = nombre;
-        
+        nombreMateria = nombre;  
     }
 
     public void establecerNota(double n) {
@@ -30,8 +29,7 @@ public class Acreditacion {
     }
     
     public void establecerProfesor(Profesor n) {
-        Profesor p1 = new Profesor("Connie Palmer", "contratado");
-        profesor = p1;
+        profesor = n;
     }
 
     public double obtenerNota() {
